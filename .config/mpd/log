@@ -1,0 +1,179 @@
+Nov 25 00:33 : config: option 'device' on line 20 was not recognized
+Nov 25 00:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 00:33 : update: added /Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3
+Nov 25 00:33 : client: [0] opened from [::1]:45484
+Nov 25 00:33 : client: [0] closed
+Nov 25 00:33 : client: [1] opened from [::1]:45486
+Nov 25 00:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 00:36 : client: [1] closed
+Nov 25 00:36 : client: [2] opened from [::1]:45540
+Nov 25 00:36 : client: [2] closed
+Nov 25 00:36 : client: [3] opened from [::1]:45558
+Nov 25 00:37 : client: [3] closed
+Nov 25 00:37 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"
+Nov 25 00:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 00:38 : config: option 'device' on line 20 was not recognized
+Nov 25 00:38 : client: [0] opened from [::1]:55906
+Nov 25 00:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 00:40 : client: [0] closed
+Nov 25 00:40 : client: [1] opened from [::1]:55914
+Nov 25 00:40 : client: [1] closed
+Nov 25 00:42 : client: [2] opened from [::1]:55998
+Nov 25 00:42 : client: [2] closed
+Nov 25 00:42 : client: [3] opened from [::1]:56000
+Nov 25 00:42 : client: [3] closed
+Nov 25 00:42 : client: [4] opened from [::1]:56002
+Nov 25 00:42 : client: [4] closed
+Nov 25 00:43 : client: [5] opened from [::1]:56018
+Nov 25 00:46 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"
+Nov 25 00:47 : client: [5] closed
+Nov 25 00:50 : config: option 'device' on line 20 was not recognized
+Nov 25 00:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 00:50 : client: [0] opened from 127.0.0.1:50846
+Nov 25 00:50 : client: [0] closed
+Nov 25 00:53 : client: [1] opened from 127.0.0.1:50852
+Nov 25 00:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 00:53 : client: [2] opened from 127.0.0.1:50856
+Nov 25 00:53 : client: [2] closed
+Nov 25 00:54 : client: [1] closed
+Nov 25 00:55 : client: [3] opened from 127.0.0.1:50862
+Nov 25 00:55 : client: [4] opened from 127.0.0.1:50866
+Nov 25 00:55 : client: [4] closed
+Nov 25 00:57 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"
+Nov 25 00:57 : client: [3] closed
+Nov 25 01:03 : client: [5] opened from 127.0.0.1:50918
+Nov 25 01:04 : client: [5] closed
+Nov 25 01:04 : client: [6] opened from 127.0.0.1:50922
+Nov 25 01:07 : client: [6] closed
+Nov 25 01:09 : client: [7] opened from 127.0.0.1:50942
+Nov 25 01:10 : client: [7] closed
+Nov 25 01:10 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"
+Nov 25 07:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 07:58 : config: option 'device' on line 20 was not recognized
+Nov 25 07:58 : client: [0] opened from 127.0.0.1:54400
+Nov 25 07:58 : client: [0] closed
+Nov 25 15:11 : client: [1] opened from 127.0.0.1:56326
+Nov 25 15:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 15:11 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"
+Nov 25 15:11 : client: [1] closed
+Nov 25 15:11 : config: option 'device' on line 20 was not recognized
+Nov 25 15:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 19:49 : config: option 'device' on line 20 was not recognized
+Nov 29 19:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 19:49 : client: [0] opened from 127.0.0.1:60076
+Nov 29 19:49 : client: [0] closed
+Nov 29 19:49 : client: [1] opened from 127.0.0.1:60080
+Nov 29 19:49 : client: [1] closed
+Nov 29 19:54 : client: [2] opened from 127.0.0.1:60140
+Nov 29 19:55 : client: [2] closed
+Nov 29 19:56 : client: [3] opened from 127.0.0.1:60170
+Nov 29 19:56 : client: [3] closed
+Nov 29 19:58 : client: [4] opened from 127.0.0.1:60174
+Nov 29 19:58 : client: [4] closed
+Nov 29 19:59 : client: [5] opened from 127.0.0.1:60178
+Nov 29 19:59 : client: [5] closed
+Nov 29 20:00 : client: [6] opened from 127.0.0.1:60184
+Nov 29 20:00 : client: [6] closed
+Nov 29 20:00 : client: [7] opened from 127.0.0.1:60188
+Nov 29 20:00 : client: [7] closed
+Nov 29 20:00 : client: [8] opened from 127.0.0.1:60192
+Nov 29 20:00 : client: [8] closed
+Nov 29 20:01 : client: [9] opened from 127.0.0.1:60196
+Nov 29 20:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 20:02 : client: [9] closed
+Nov 29 20:02 : client: [10] opened from 127.0.0.1:60200
+Nov 29 20:02 : client: [10] closed
+Nov 29 20:03 : client: [11] opened from 127.0.0.1:60208
+Nov 29 20:03 : client: [11] closed
+Nov 29 20:03 : client: [12] opened from 127.0.0.1:60212
+Nov 29 20:03 : client: [12] closed
+Nov 29 20:03 : client: [13] opened from 127.0.0.1:60216
+Nov 29 20:04 : client: [13] closed
+Nov 29 20:04 : client: [14] opened from 127.0.0.1:60220
+Nov 29 20:04 : client: [14] closed
+Nov 29 20:04 : client: [15] opened from 127.0.0.1:60224
+Nov 29 20:04 : client: [15] closed
+Nov 29 20:05 : client: [16] opened from 127.0.0.1:60230
+Nov 29 20:05 : client: [16] closed
+Nov 29 20:05 : client: [17] opened from 127.0.0.1:60236
+Nov 29 20:06 : client: [17] closed
+Nov 29 20:07 : client: [18] opened from 127.0.0.1:60240
+Nov 29 20:07 : client: [18] closed
+Nov 29 20:07 : client: [19] opened from 127.0.0.1:60248
+Nov 29 20:08 : client: [19] closed
+Nov 29 20:08 : client: [20] opened from 127.0.0.1:60252
+Nov 29 20:08 : client: [20] closed
+Nov 29 20:09 : client: [21] opened from 127.0.0.1:60256
+Nov 29 20:09 : client: [21] closed
+Nov 29 20:09 : client: [22] opened from 127.0.0.1:60260
+Nov 29 20:10 : client: [22] closed
+Nov 29 20:11 : client: [23] opened from 127.0.0.1:60266
+Nov 29 20:11 : client: [23] closed
+Nov 29 20:14 : client: [24] opened from 127.0.0.1:60272
+Nov 29 20:14 : client: [24] closed
+Nov 29 20:14 : client: [25] opened from 127.0.0.1:60280
+Nov 29 20:16 : client: [25] closed
+Nov 29 20:16 : client: [26] opened from 127.0.0.1:60286
+Nov 29 20:16 : client: [26] closed
+Nov 29 20:17 : client: [27] opened from 127.0.0.1:60292
+Nov 29 20:17 : client: [27] closed
+Nov 29 20:18 : client: [28] opened from 127.0.0.1:60296
+Nov 29 20:18 : client: [28] closed
+Nov 29 20:18 : client: [29] opened from 127.0.0.1:60300
+Nov 29 20:18 : client: [29] closed
+Nov 29 20:18 : client: [30] opened from 127.0.0.1:60304
+Nov 29 20:19 : client: [30] closed
+Nov 29 20:19 : client: [31] opened from 127.0.0.1:60308
+Nov 29 20:19 : client: [31] closed
+Nov 29 20:19 : client: [32] opened from 127.0.0.1:60312
+Nov 29 20:19 : client: [32] closed
+Nov 29 20:19 : client: [33] opened from 127.0.0.1:60316
+Nov 29 20:20 : client: [33] closed
+Nov 29 20:21 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"
+Nov 29 20:39 : client: [34] opened from 127.0.0.1:60378
+Nov 29 20:40 : client: [34] closed
+Dec 18 13:47 : config: option 'device' on line 20 was not recognized
+Dec 18 13:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 18 13:47 : client: [0] opened from 127.0.0.1:48264
+Dec 18 13:48 : client: [0] closed
+Dec 18 14:10 : client: [1] opened from 127.0.0.1:48332
+Dec 18 14:10 : client: [1] closed
+Dec 18 14:10 : client: [2] opened from 127.0.0.1:48336
+Dec 18 14:11 : client: [2] closed
+Dec 18 14:12 : client: [3] opened from 127.0.0.1:48340
+Dec 18 14:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 18 14:13 : client: [4] opened from 127.0.0.1:48344
+Dec 18 14:13 : client: [4] closed
+Dec 18 14:14 : client: [5] opened from 127.0.0.1:48348
+Dec 18 14:14 : client: [5] closed
+Dec 18 14:14 : client: [6] opened from 127.0.0.1:48354
+Dec 18 14:14 : client: [6] closed
+Dec 18 14:20 : client: [3] closed
+Dec 18 14:21 : client: [7] opened from 127.0.0.1:48432
+Dec 18 14:21 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"
+Dec 18 14:21 : client: [7] closed
+Dec 18 14:21 : client: [8] opened from 127.0.0.1:48436
+Dec 18 14:21 : client: [9] opened from 127.0.0.1:48440
+Dec 18 14:21 : client: [9] closed
+Dec 18 14:22 : client: [10] opened from 127.0.0.1:48460
+Dec 18 14:22 : client: [10] closed
+Dec 18 14:23 : client: [11] opened from 127.0.0.1:48464
+Dec 18 14:23 : client: [11] closed
+Dec 18 14:23 : client: [12] opened from 127.0.0.1:48468
+Dec 18 14:23 : client: [12] closed
+Dec 18 14:23 : client: [13] opened from 127.0.0.1:48472
+Dec 18 14:23 : client: [13] closed
+Dec 18 14:23 : client: [14] opened from 127.0.0.1:48476
+Dec 18 14:23 : client: [14] closed
+Dec 18 14:24 : client: [15] opened from 127.0.0.1:48480
+Dec 18 14:24 : client: [15] closed
+Dec 18 14:24 : client: [16] opened from 127.0.0.1:48484
+Dec 18 14:24 : client: [16] closed
+Dec 18 14:24 : client: [17] opened from 127.0.0.1:48488
+Dec 18 14:24 : client: [17] closed
+Dec 18 14:24 : client: [18] opened from 127.0.0.1:48492
+Dec 18 14:24 : client: [18] closed
+Dec 18 14:25 : client: [19] opened from 127.0.0.1:48496
+Dec 18 14:25 : client: [19] closed
+Dec 18 14:27 : client: [8] closed
+Dec 18 14:32 : player: played "Easy MPD (Arch Linux)-wjW6nDhlEN8.mp3"

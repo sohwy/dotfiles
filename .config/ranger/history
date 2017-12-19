@@ -1,0 +1,48 @@
+dd
+shell mkdir test
+shell rmdir test
+rename 2_gyy5dq.jpg
+rename 2_gyy5dq.jpg_
+shell
+S
+shell ls
+shell 
+shell  %s
+shell mkdir %s test
+shell rmdir 
+shell rmdir %s/test
+rename valley-1.jpg
+mkdir sway
+line_numbers absolute
+set line_numbers absolute
+set show_hidden!
+set show_hidden
+set show_hidden true
+set show_hidden false
+set line_numbers false
+bulkrename 
+mark README.md
+mark
+unmark
+touch cut
+vim michelin
+mkdir latex
+echo helo
+mkdir test
+rmdir test
+rename
+rename article.tex
+
+shell -f cp ~/Templates/latex/article.tex new.tex
+mkdir new
+q
+search learning
+search learn
+search df
+search werwer
+mark learn
+find learn
+find dfdf
+line_numbers false
+delete
+rename git_dotfiles_instructions

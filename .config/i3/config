@@ -71,6 +71,8 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +1% && pactl set-sink-
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -1% && pactl set-sink-mute 0 0
 
 # enable brightness keys (testing)
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 
 
 
@@ -276,10 +278,7 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        # status_command i3status --config ~/.config/i3status.conf
         status_command py3status --config ~/.config/i3status.conf
-        #status_command 13status | xmobar /usr/share/doc/xmobar/xmobar.config
-        #status_command i3status | dzen2 -fg white -bg black -y 750 -x 500
         position top
         separator_symbol "/"
 }

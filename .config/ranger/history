@@ -46,3 +46,5 @@ find dfdf
 line_numbers false
 delete
 rename git_dotfiles_instructions
+mkdir sxiv
+mkdir exec

@@ -33,7 +33,6 @@ font pango:monospace 8
 exec xrandr --output HDMI-1 --mode 1920x1200 --pos 0x0 --rotate normal --output eDP-1 --primary --mode 1366x768 --pos 1920x0 --rotate normal
 
 # set the wallpaper and colour scheme using wal
-#exec wal -i "/home/user/Pictures/wallpaper/wg/1506455120659.jpg"
 exec wal -i "/home/user/Pictures/wallpaper/wg/1507035009284.jpg"
 
 # start notification daemon (testing)
@@ -57,14 +56,6 @@ focus_follows_mouse no
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-
-# start rofi (another program launcher)
-#bindsym $mod+d exec "rofi -show run -lines 5"
-#bindsym $mod+Shift+d exec "rofi -show window"
 
 # enable volume keys
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +1% && pactl set-sink-mute 0 0
@@ -73,8 +64,6 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -1% && pactl set-sink-
 # enable brightness keys (testing)
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-
-
 
 # hide borders adjacent to screen
 hide_edge_borders both
@@ -272,6 +261,17 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+mode "move_float" {
+    bindsym Up move up 10px
+    bindsym Left move left 10px
+    bindsym Down move down 10px
+    bindsym Right move right 10px
+	# back to normal: Enter or Escape
+	bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+m focus floating; mode "move_float"
 ##############################################################################
 # i3bar config
 ##############################################################################

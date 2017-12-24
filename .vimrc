@@ -22,6 +22,7 @@ Plugin 'maralla/completor.vim'
 Plugin 'w0rp/ale'
 Plugin 'lervag/vimtex'
 Plugin 'majutsushi/tagbar'
+Plugin 'junegunn/goyo.vim'
 
 call vundle#end()			" required
 filetype plugin indent on	" required
@@ -75,6 +76,7 @@ nnoremap gb :ls<CR>:b<Space>
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
+
 " ============================================================================
 " Appearance
 " ============================================================================
@@ -114,12 +116,12 @@ autocmd FIleType python vnoremap <leader>c <C-v>I# <Esc>
 " LaTeX configuration
 " ============================================================================
 " Some useful shortcuts
-" \ll		Start compiling the document
-" \lv		Open pdf viewer and/or do forward searching
-" \ll		Stop running the compilation
-" \le		Parse the log file for errors and warnings
-" \lc		Clean auxilliary files
-" \lC		Remove pdfs
+" \ll Start compiling the document
+" \lv Open pdf viewer and/or do forward searching
+" \ll Stop running the compilation
+" \le Parse the log file for errors and warnings
+" \lc Clean auxilliary files
+" \lC Remove pdfs
 
 " use zathura to view pdfs
 let g:vimtex_view_method = 'zathura'

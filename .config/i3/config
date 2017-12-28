@@ -57,11 +57,12 @@ focus_follows_mouse no
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
 
-# enable volume keys
+# volume control
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +1% && pactl set-sink-mute 0 0
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -1% && pactl set-sink-mute 0 0
+bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
 
-# enable brightness keys (testing)
+# brightness control
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 

@@ -62,6 +62,7 @@ vnoremap > >gv
 
 " new vim tab
 nnoremap <C-t> :tabnew<cr>
+nnoremap <C-w> :tabclose<cr>
 
 " spell check in insert mode
 imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>

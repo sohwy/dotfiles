@@ -1,2 +1,18 @@
+# show which mode prompt is in
 set show-mode-in-prompt on
+
+# shift-tab to autocomplete 
 "\e[Z": menu-complete
+
+# vi mode
+set editing-mode vi
+
+$if mode=vi
+	# visual mode
+	set keymap vi-command
+	Control-l: clear-screen
+
+	# insert mode
+	set keymap vi-insert
+	Control-l: clear-screen
+$endif

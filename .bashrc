@@ -1,8 +1,8 @@
 # .bashrc
 
 # Activate vi mode with <Escape>:
-set -o vi
-bind ^l:clear-screen
+#set -o vi
+#bind ^L:clear-screen
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then

@@ -27,3 +27,7 @@ export INFOPATH="/home/user/texlive/2017/texmf-dist/doc/info:$INFOPATH"
 
 # aliases
 alias i3config="vim ~/.config/i3/config"
+alias zshrc="vim ~/.config/zsh/.zshrc"
+alias bashrc="vim ~/.bashrc"
+alias vimrc="vim ~/.vimrc"
+alias ..="cd .."

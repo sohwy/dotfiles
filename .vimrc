@@ -78,8 +78,6 @@ nnoremap gb :ls<CR>:b<Space>
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
 
-" netrw
-let g:netrw_liststyle=3
 
 
 " ============================================================================

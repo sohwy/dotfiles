@@ -18,7 +18,6 @@ Plugin 'VundleVim/Vundle.vim'
 " select plugins
 Plugin 'chriskempson/base16-vim'
 Plugin 'maralla/completor.vim'
-"Plugin 'davidhalter/jedi-vim'
 Plugin 'w0rp/ale'
 Plugin 'lervag/vimtex'
 Plugin 'majutsushi/tagbar'
@@ -43,7 +42,7 @@ set showcmd
 
 " Relative line numbering
 set number
-set relativenumber
+"set relativenumber
 
 " Lazy redraw
 set lazyredraw
@@ -62,7 +61,6 @@ vnoremap > >gv
 
 " new vim tab
 nnoremap <C-t> :tabnew<cr>
-nnoremap <C-w> :tabclose<cr>
 
 " spell check in insert mode
 imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>
@@ -104,7 +102,7 @@ hi Function cterm=bold
 " ============================================================================
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
-let g:ale_echo_msg_format = '[%severity%] %s'
+let g:ale_echo_msg_format = '[%linter%] [%severity%] %s'
 
 " ============================================================================
 " Python configuration 

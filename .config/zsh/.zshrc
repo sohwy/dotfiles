@@ -10,8 +10,8 @@ BASE16_SHELL_SET_BACKGROUND=false
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
-# add TeX to PATH
-export PATH="/home/user/texlive/2017/bin/x86_64-linux:$PATH"
+# PATH
+export PATH="$HOME/.local/bin:/home/user/texlive/2017/bin/x86_64-linux:$PATH"
 export MANPATH="/home/user/texlive/2017/texmf-dist/doc/man:$MANPATH"
 export INFOPATH="/home/user/texlive/2017/texmf-dist/doc/info:$INFOPATH"
 

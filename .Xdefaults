@@ -1,6 +1,7 @@
 URxvt*scrollBar: false
-URxvt*transparent: true
+#URxvt*transparent: true
 URxvt*shading: 13
+URxvt*internalBorder: 30
 URxvt.cursorBlink: 1
 URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
 URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=14:antialias=true:hinting=true

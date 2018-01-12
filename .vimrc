@@ -1,13 +1,13 @@
-" ============================================================================
+" ==========================================================
 " $MYVIMRC
-" ============================================================================
+" ==========================================================
 set nocompatible		" be iMproved, required
 filetype off			" required
 set hidden
 set encoding=utf8
-" ============================================================================
+" ==========================================================
 " Plugin management
-" ============================================================================
+" ==========================================================
 " set the runtime path to include Vundle and intialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -26,13 +26,10 @@ Plugin 'junegunn/goyo.vim'
 call vundle#end()			" required
 filetype plugin indent on	" required
 
-" ============================================================================
-" Basic configuration
-" ============================================================================
+" ==========================================================
+" Vim configuration
+" ==========================================================
 set statusline=%F%m%r%<\ %=%l,%v\ [%L]\ %p%%
-
-" Change the statusline highlighting so it stands out
-hi statusline ctermbg=white ctermfg=black
 
 " Make sure statusline always shows
 set laststatus=2
@@ -42,13 +39,9 @@ set showcmd
 
 " Relative line numbering
 set number
-"set relativenumber
 
 " Lazy redraw
 set lazyredraw
-
-" disable auto paren matching
-"let g:loaded_matchparen = 1
 
 " Tabulation
 set tabstop=4
@@ -76,11 +69,6 @@ nnoremap gb :ls<CR>:b<Space>
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
 
-
-
-" ============================================================================
-" Appearance
-" ============================================================================
 " Access colors present in 256 colorspace
 if filereadable(expand("~/.vimrc_background"))
 	let base16colorspace=256
@@ -90,32 +78,32 @@ endif
 " disables opaque background
 hi Normal ctermbg=none
 hi NonText ctermbg=none
-
-" make comments bold
-hi Comment cterm=bold
-
+hi clear LineNr
+hi clear SignColumn
+hi LineNr ctermfg=grey
+hi statusline ctermbg=none cterm=none
+hi Comment cterm=italic
 " make variable names bold
 hi Function cterm=bold
 
-" ============================================================================
-" Code linting (using ale)
-" ============================================================================
+" ==========================================================
+" Linter
+" ==========================================================
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] [%severity%] %s'
 
-" ============================================================================
-" Python configuration 
-" ============================================================================
+" ==========================================================
+" Python 
+" ==========================================================
 let g:completor_python_binary = '/usr/bin/python3'
-"let g:completor_python_binary = '/home/user/anaconda3/bin/python'
 autocmd FileType python nnoremap <leader>b Iimport ipdb; ipdb.set_trace()<CR><Esc>
 autocmd FileType python nnoremap <leader>c I# <Esc>
 autocmd FIleType python vnoremap <leader>c <C-v>I# <Esc>
 
-" ============================================================================
-" LaTeX configuration
-" ============================================================================
+" ==========================================================
+" LaTeX 
+" ==========================================================
 " Some useful shortcuts
 " \ll Start compiling the document
 " \lv Open pdf viewer and/or do forward searching

@@ -55,6 +55,10 @@ vnoremap > >gv
 " new vim tab
 nnoremap <C-t> :tabnew<cr>
 
+" new line in normal mode
+nnoremap <leader>o o<esc>
+nnoremap <leader>O O<esc>
+
 " spell check in insert mode
 imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>
 

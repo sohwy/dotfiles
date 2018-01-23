@@ -26,7 +26,7 @@ bindkey "^?" backward-delete-char
 # zsh prompt
 function zle-line-init zle-keymap-select {
 	# left prompt
-    PROMPT="${${KEYMAP/vicmd/[N]}/(main|viins)/[I]}%F{38}%B[%c]%f%b%# "
+    PROMPT="${${KEYMAP/vicmd/[N]}/(main|viins)/[I]}%F{54}%B[%c]%f%b%# "
 	# right prompt
 	RPROMPT="%F{81}%~%f"
     zle reset-prompt

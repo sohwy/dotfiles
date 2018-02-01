@@ -28,7 +28,7 @@ function zle-line-init zle-keymap-select {
 	# left prompt
     PROMPT="${${KEYMAP/vicmd/[N]}/(main|viins)/[I]}%F{54}%B[%c]%f%b%# "
 	# right prompt
-	RPROMPT="%F{81}%~%f"
+	RPROMPT="%F{81}%~%f %F{48}$VIRTUAL_ENV%f"
     zle reset-prompt
 }
 zle -N zle-line-init

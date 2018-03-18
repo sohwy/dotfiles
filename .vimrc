@@ -103,7 +103,8 @@ let g:ale_echo_msg_format = '[%linter%] [%severity%] %s'
 let g:completor_python_binary = '/usr/bin/python3'
 autocmd FileType python nnoremap <leader>b Iimport ipdb; ipdb.set_trace()<CR><Esc>
 autocmd FileType python nnoremap <leader>c I# <Esc>
-autocmd FIleType python vnoremap <leader>c <C-v>I# <Esc>
+autocmd FileType python vnoremap <leader>c <C-v>I# <Esc>
+autocmd FileType python nnoremap <buffer> <f8> :exec '!python3' shellescape(@%, 1)<cr>
 
 " ==========================================================
 " LaTeX 

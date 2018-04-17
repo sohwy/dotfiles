@@ -14,6 +14,7 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 export PATH="$HOME/.local/bin:/home/user/texlive/2017/bin/x86_64-linux:$PATH"
 export MANPATH="/home/user/texlive/2017/texmf-dist/doc/man:$MANPATH"
 export INFOPATH="/home/user/texlive/2017/texmf-dist/doc/info:$INFOPATH"
+export GOPATH=$HOME/go
 
 # enable vi mode
 bindkey -v

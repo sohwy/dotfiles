@@ -30,12 +30,10 @@ font pango:DejaVu Sans Mono 8
 #exec --no-startup-id nm-applet
 
 # set the output when connected to HDMI
-#exec xrandr --output HDMI-1 --mode 1920x1200 --pos 0x0 --rotate normal --output eDP-1 --primary --mode 1366x768 --pos 1920x0 --rotate normal
-
-exec ~/.screenlayout/dock.sh
+exec ~/.screenlayout/dock.sh &
 
 # set the wallpaper and colour scheme using wal
-exec wal -i "/home/user/Pictures/wallpaper/wg/1507035009284.jpg"
+exec /home/user/.local/bin/wal -R
 
 # start notification daemon (testing)
 exec dunst

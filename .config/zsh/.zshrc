@@ -9,6 +9,7 @@ SAVEHIST=1000
 BASE16_SHELL_SET_BACKGROUND=false
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+(cat ~/.cache/wal/sequences &)
 
 # PATH
 export PATH="$HOME/.local/bin:/home/user/texlive/2017/bin/x86_64-linux:$PATH"

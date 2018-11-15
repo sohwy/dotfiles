@@ -5,6 +5,7 @@ set nocompatible		" be iMproved, required
 filetype off			" required
 set hidden
 set encoding=utf8
+
 " ==========================================================
 " Plugin management
 " ==========================================================
@@ -30,24 +31,17 @@ filetype plugin indent on	" required
 " Vim configuration
 " ==========================================================
 set statusline=%F%m%r%<\ %=%l,%v\ [%L]\ %p%%
-
-" Make sure statusline always shows
 set laststatus=2
-
-" see command keys
 set showcmd
-
-" Relative line numbering
 set number
-
-" Lazy redraw
 set lazyredraw
-
-" Tabulation
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" ==========================================================
+" Shortcuts
+" ==========================================================
 " better indent
 vnoremap < <gv
 vnoremap > >gv
@@ -73,13 +67,22 @@ nnoremap gb :ls<CR>:b<Space>
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
 
+" add things around highlighted text
+vnoremap <leader>' <Esc>`>a'<Esc>`<i'<Esc>f'
+vnoremap <leader>" <Esc>`>a"<Esc>`<i"<Esc>f"
+vnoremap <leader>( <Esc>`>a)<Esc>`<i(<Esc>f)
+vnoremap <leader>[ <Esc>`>a]<Esc>`<i[<Esc>f]
+vnoremap <leader>{ <Esc>`>a}<Esc>`<i{<Esc>f}
+
+" ==========================================================
+" Appearance
+" ==========================================================
 " Access colors present in 256 colorspace
 if filereadable(expand("~/.vimrc_background"))
 	let base16colorspace=256
 	source ~/.vimrc_background
 endif
 
-" disables opaque background
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 hi clear LineNr
@@ -87,7 +90,6 @@ hi clear SignColumn
 hi LineNr ctermfg=grey
 hi statusline ctermbg=none cterm=none
 hi Comment cterm=italic
-" make variable names bold
 hi Function cterm=bold
 
 " ==========================================================
@@ -101,10 +103,12 @@ let g:ale_echo_msg_format = '[%linter%] [%severity%] %s'
 " Python 
 " ==========================================================
 let g:completor_python_binary = '/usr/bin/python3'
-autocmd FileType python nnoremap <leader>b Iimport ipdb; ipdb.set_trace()<CR><Esc>
-autocmd FileType python nnoremap <leader>c I# <Esc>
-autocmd FileType python vnoremap <leader>c <C-v>I# <Esc>
+autocmd FileType python nnoremap <buffer> <leader>b Iimport ipdb; ipdb.set_trace()<CR><Esc>
+autocmd FileType python nnoremap <buffer> <leader>c I# <Esc>
+autocmd FileType python vnoremap <buffer> <leader>c <C-v>I# <Esc>
 autocmd FileType python nnoremap <buffer> <f8> :exec '!python3' shellescape(@%, 1)<cr>
+autocmd FileType python vnoremap <buffer> <f5> :w !python3<cr>
+autocmd FileType python set cc=80
 
 " ==========================================================
 " LaTeX 
@@ -125,5 +129,5 @@ let g:vimtex_view_method = 'zathura'
 let g:vimtex_compiler_latexmk = {'callback' : 0}
 
 " code folding
-let g:vimtex_fold_enabled = 1
-let g:vimtex_fold_manual = 1
+let g:vimtex_fold_enabled=1
+let g:vimtex_fold_manual=1

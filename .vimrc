@@ -23,6 +23,7 @@ Plugin 'w0rp/ale'
 Plugin 'lervag/vimtex'
 Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/goyo.vim'
+Plugin 'jpalardy/vim-slime'
 
 call vundle#end()			" required
 filetype plugin indent on	" required
@@ -110,6 +111,10 @@ autocmd FileType python nnoremap <buffer> <f8> :exec '!python3' shellescape(@%, 
 autocmd FileType python vnoremap <buffer> <f5> :w !python3<cr>
 autocmd FileType python set cc=80
 
+let g:slime_target = "tmux"
+let g:slime_paste_file = "$HOME/tmp/.slime_paste"
+let g:slime_python_ipython = 1
+
 " ==========================================================
 " LaTeX 
 " ==========================================================
@@ -131,3 +136,7 @@ let g:vimtex_compiler_latexmk = {'callback' : 0}
 " code folding
 let g:vimtex_fold_enabled=1
 let g:vimtex_fold_manual=1
+
+
+
+set t_ut=

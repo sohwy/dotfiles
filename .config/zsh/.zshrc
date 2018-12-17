@@ -11,6 +11,8 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 (cat ~/.cache/wal/sequences &)
 
+export TERM=screen-256color
+
 # PATH
 export PATH="$HOME/.local/bin:/home/user/texlive/2017/bin/x86_64-linux:$PATH"
 export MANPATH="/home/user/texlive/2017/texmf-dist/doc/man:$MANPATH"
@@ -51,3 +53,4 @@ alias vimrc="vim ~/.vimrc"
 alias ..="cd .."
 alias yattc="source ~/Projects/envs/yattc/bin/activate; cd ~/Projects/yattc"
 alias taxcalc="source ~/Projects/envs/Tax-Calculator/bin/activate"
+alias tmux="tmux -2"

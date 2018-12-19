@@ -1,3 +1,5 @@
+" if has('python3')
+" endif
 " ==========================================================
 " $MYVIMRC
 " ==========================================================
@@ -24,6 +26,7 @@ Plugin 'lervag/vimtex'
 Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/goyo.vim'
 Plugin 'jpalardy/vim-slime'
+" Plugin 'wmvanvliet/jupyter-vim'
 
 call vundle#end()			" required
 filetype plugin indent on	" required
@@ -138,5 +141,5 @@ let g:vimtex_fold_enabled=1
 let g:vimtex_fold_manual=1
 
 
-
+set clipboard=unnamedplus
 set t_ut=

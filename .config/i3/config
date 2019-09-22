@@ -77,8 +77,8 @@ new_window none
 # for_window [class="URxvt"] border pixel 1
 
 # default gaps config
-gaps inner 10
-gaps outer 3
+#gaps inner 10
+#gaps outer 3
 # smart_gaps on
 
 # testing for i3-nagbar (testing)

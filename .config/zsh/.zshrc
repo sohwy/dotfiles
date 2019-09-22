@@ -21,6 +21,7 @@ export GOPATH=$HOME/go
 
 # enable vi mode
 bindkey -v
+export KEYTIMEOUT=1
 
 # vi mode bindings
 bindkey -a '^[[3~' delete-char

@@ -140,15 +140,13 @@ mode "$mode_gaps_outer" {
 }
 
 # mode to change keyboard layout
-set $mode_keyboard Keyboard: (1) qwerty | (2) colemak | (3) caps:swapescape | (4) reset
+set $mode_keyboard Keyboard: (1) qwerty | (2) colemak
 
 bindsym $mod+Control+k mode "$mode_keyboard"
 
 mode "$mode_keyboard" {
-	bindsym 1      exec setxkbmap us                      #; mode "$mode_keyboard"
-	bindsym 2      exec setxkbmap -variant colemak        #; mode "$mode_keyboard"
-	bindsym 3      exec setxkbmap -option caps:swapescape #; mode "$mode_keyboard"
-	bindsym 4      exec setxkbmap -option ''              #; mode "$mode_keyboard"
+	bindsym 1      exec setxkbmap -option '' && setxkbmap us && setxkbmap -option caps:swapescape                      #; mode "$mode_keyboard"
+	bindsym 2      exec setxkbmap -option '' && setxkbmap -variant colemak && setxkbmap -option caps:backspace        #; mode "$mode_keyboard"
 	bindsym Escape mode "default"
 }
 
